@@ -27,7 +27,7 @@ from urllib.parse import quote
 sleep_1 = 2  # Outer sleep: for API limiter
 sleep_2 = 2  # Inner sleep
 
-from authorization import headers
+from lifering_authorization import headers
 
 regex_whitelist = "([^a-zA-Z0-9 \(]*)"
 # regex_end_string = '[^a-zA-Z]'
