@@ -463,7 +463,6 @@ while (shouldLoop):
             
             active_meeting_dict[uuid] = data;
             
-            #--data{text:"..."} # https://hooks.slack.com/services/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
             
             csv_writer.writerow(data.values())
             csv_file.flush()
